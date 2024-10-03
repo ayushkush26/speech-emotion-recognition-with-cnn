@@ -15,6 +15,15 @@ This project implements a Convolutional Neural Network (CNN) based model for Spe
 **SAVEE**: The Surrey Audio-Visual Expressed Emotion (SAVEE) dataset provides additional emotional audio recordings, enhancing the diversity of the training data.  
 
 
+**Google Colab Setup**
+1. Open Google Colab: Google Colab.
+2. Upload the Jupyter Notebook file speech_emotion_recognition_with_cnn.ipynb.
+3. Install the required packages:
+**!pip install tensorflow librosa**
+
+
+
 **Usage**
-* Download and prepare the RAVDESS and SAVEE datasets and ensure the audio files are in a supported format (e.g., WAV).
-* 
+1. Download and prepare the RAVDESS and SAVEE datasets and ensure the audio files are in a supported format (e.g., WAV).
+2. Open the speech_emotion_recognition_with_cnn.ipynb notebook and run the cells to train the model.
+3. Evaluate the model on the test dataset as specified in the notebook.
